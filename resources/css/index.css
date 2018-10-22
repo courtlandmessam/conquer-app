@@ -24,3 +24,18 @@ body {
   margin-right: 20px;
   padding: 15px 25px 15px 25px;
 }
+
+/*CSS FOR TITLE DIV*/
+#title-div {
+  background-image: url("http://www.aylwebsites.com/wp-content/themes/alium/images/slides/1.jpg");
+  height: 300px;
+  background-attachment: fixed;
+  text-align: center;
+  color: white;
+}
+
+
+#temp {
+  background-color: black;
+  height: 800px;
+}
