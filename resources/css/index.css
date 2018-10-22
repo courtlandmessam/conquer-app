@@ -1,7 +1,9 @@
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  margin: 0;
 }
-/* CSS FOR TOP NAV BAR */
+
+/* STARTING CSS FOR TOP NAV BAR */
 #top-nav {
   background-color: rgb(56, 62, 76);
   color: white;
@@ -9,6 +11,7 @@ body {
   font-size: 20px;
   padding-top: 25px;
   padding-bottom: 25px;
+  margin: 0;
 }
 
 /* CSS FOR TOP NAV LINKS */
@@ -25,7 +28,13 @@ body {
   padding: 15px 25px 15px 25px;
 }
 
-/*CSS FOR TITLE DIV*/
+/* END CSS FOR TOP NAV BAR*/
+
+
+
+
+
+/* BEGIN CSS FOR TITLE DIV*/
 #title-div {
   background-image: url("http://www.aylwebsites.com/wp-content/themes/alium/images/slides/1.jpg");
   height: 300px;
@@ -33,6 +42,14 @@ body {
   text-align: center;
   color: white;
 }
+
+#title-div h1 {
+  margin-top: 0;
+}
+/* END CSS FOR TITLE DIV*/
+
+
+
 
 
 #temp {
