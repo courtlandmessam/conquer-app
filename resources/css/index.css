@@ -34,14 +34,25 @@ body {
 /* BEGIN CSS FOR TITLE DIV*/
 #title-div {
   background-image: url("http://www.aylwebsites.com/wp-content/themes/alium/images/slides/1.jpg");
-  height: 300px;
+  height: 380px;
   background-attachment: fixed;
   text-align: center;
   color: white;
+  text-shadow: 1px 1px 1px black;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 #title-div h1 {
   margin-top: 0;
+  font-size: 70px;
+  font-weight: 500;
+  text-shadow: 2px 2px #000;
+  text-transform: uppercase;
+}
+
+#title-div-text {
+  padding-top: 150px;
+  font-size: 25px;
 }
 /* END CSS FOR TITLE DIV*/
 
