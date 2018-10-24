@@ -39,7 +39,6 @@ body {
   text-align: center;
   color: white;
   text-shadow: 1px 1px 1px black;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 #title-div h1 {
@@ -55,6 +54,27 @@ body {
   font-size: 25px;
 }
 /* END CSS FOR TITLE DIV*/
+
+
+/* BEGIN CSS FOR EXPLANATION DIV*/
+#explanation-div {
+  padding: 20px;
+}
+
+
+#explanation-div  img{
+  width: 350px;
+  height: 175px;
+}
+
+#explanation-div  div{
+  width: 350px;
+}
+
+/* END CSS FOR EXPLANATION DIV*/
+
+
+
 
 
 #temp {
