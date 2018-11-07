@@ -58,17 +58,50 @@ body {
 
 /* BEGIN CSS FOR EXPLANATION DIV*/
 #explanation-div {
-  padding: 20px;
+  padding: 75px;
 }
 
 
 #explanation-div  img{
-  width: 350px;
+  width: 300px;
   height: 175px;
 }
 
 #explanation-div  div{
-  width: 350px;
+  width: 300px;
+  padding-bottom: 8px;
+  background-color: #F2F2F2;
+  display: inline-block;
+  margin-right: 50px;
+  vertical-align: top;
+}
+
+#explanation-div h2 {
+  color: green;
+  padding: 0px 0px 0px 20px;
+  font-size: 20px;
+}
+
+#explanation-div p {
+  padding: 0px 0px 8px 20px;
+  font-weight: lighter;
+  font-size: 16px;
+  color: #333;
+  line-height: 22.4px;
+}
+
+#green-button-div {
+  text-align: center;
+}
+
+#green-button {
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+  font-size: 18px;
+  text-transform: capitalize;
 }
 
 /* END CSS FOR EXPLANATION DIV*/
